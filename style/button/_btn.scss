@@ -1,0 +1,30 @@
+.clock__btn-area {
+    
+    .startClock {
+        background: none;
+        padding: 0;
+        border: none;
+        color: white;
+        font-weight: 400;
+        font-size: 3rem;
+        color: white;
+        margin-right: 2rem;
+        cursor: pointer;
+    }
+
+    .stopClock {
+        background: none;
+        padding: 0;
+        border: none;
+        color: white;
+        font-weight: 400;
+        font-size: 3rem;
+        color: green;
+        margin-right: 2rem;
+        cursor: pointer;
+    }
+
+    .stopClock:focus, .startClock:focus {
+        outline-width: 0;
+    }
+}

@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17vh;
+    text-align: center;
+
+    .clock {
+
+        &__stopwatch1{
+            font-size: 6rem;
+            margin-bottom: 2.5rem;
+            color: white;
+            color: white;
+            letter-spacing: .5rem;
+            text-transform: uppercase;
+            text-shadow: 
+            .05em 0 .05em rgba(255, 0, 0, .5), 
+            -0.045em -.02em 0 rgba(0, 255, 0, 0.5), 
+            0.05em .055em .05em rgba(0, 0, 255, .5);
+        }
+
+        
+    }
+
+    .glitch {
+        margin-bottom: 1rem;
+        position: relative;
+        font-size: 10rem;
+        color: white;
+        letter-spacing: .5rem;
+        text-transform: uppercase;
+        text-shadow: 
+        .05em 0 .025em rgba(255, 0, 0, .5), 
+        -0.05em -.03em 0 rgba(0, 255, 0, 0.5), 
+        0.05em .055em  .05em rgba(0, 0, 255, .5);
+        animation: glitch 750ms infinite;
+
+  }
+
+    .glitch span {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    
+}

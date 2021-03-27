@@ -1,0 +1,50 @@
+@keyframes glitch {
+    0% {
+        text-shadow: 
+        .05em 0 .025em rgba(255, 0, 0, .5), 
+        -0.035em -.06em 0 rgba(0, 255, 0, 0.5), 
+        0.05em .055em  .05em rgba(0, 0, 255, .5);
+    }
+
+    14% {
+        text-shadow: 
+        .05em 0 .025em rgba(255, 0, 0, .5), 
+        -0.035em -.06em 0 rgba(92, 158, 92, 0.5), 
+        0.05em .055em  .05em rgba(0, 0, 255, .5);
+    }
+
+    15% {
+        text-shadow: 
+        .010em -.025em -05em rgba(255, 0, 0, .5), 
+        -0.05em -.025em 0 rgba(0, 255, 0, 0.5), 
+        -0.065em -.020em  .045em rgba(0, 0, 255, .5);
+    }
+
+    49% {
+        text-shadow: 
+        .010em -.025em -05em rgba(255, 0, 0, .5), 
+        -0.05em -.025em .065em rgba(0, 255, 0, 0.5), 
+        -0.065em -.020em  .065em rgba(0, 0, 255, .5);
+    }
+
+    50% {
+        text-shadow: 
+        .025em .05em .065em rgba(255, 0, 0, .5), 
+        -0.025em .055em 0 rgba(0, 255, 0, 0.5), 
+        -0.015em .05em  .05em rgba(0, 0, 255, .5);
+    }
+
+    99% {
+        text-shadow: 
+        .045em .05em 0 rgba(255, 0, 0, .5), 
+        -0.045em .025em 0 rgba(0, 255, 0, 0.5), 
+        -0.015em .05em  .05em rgba(0, 0, 255, .5);
+    }
+
+    100% {
+        text-shadow: 
+        .05em 0 .059em rgba(255, 0, 0, .5), 
+        -0.035em -.06em 0 rgba(0, 255, 0, 0.5), 
+        0.057em .055em  .05em rgba(0, 0, 255, .5);
+    }
+}
